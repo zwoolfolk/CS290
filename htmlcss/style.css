@@ -1,0 +1,16 @@
+table, th, td{
+	border-style:solid;
+}
+tbody th{
+	font-style:italic;
+	font-weight:normal;
+}
+tbody tr:nth-of-type(odd){
+	background-color: #F3E143;
+}
+tbody tr:nth-of-type(even){
+	background-color: #36C81F;
+}
+tbody tr:last-child{
+	background-color: white;
+}
