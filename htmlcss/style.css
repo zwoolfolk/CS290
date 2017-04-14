@@ -1,16 +1,42 @@
+/* Zachary Woolfolk */
+/* CS290 */
+/* HTML/CSS Assignment */
+/* 4/14/2017 */
+
 table, th, td{
 	border-style:solid;
 }
+
 tbody th{
 	font-style:italic;
 	font-weight:normal;
 }
+
 tbody tr:nth-of-type(odd){
 	background-color: #F3E143;
 }
+
 tbody tr:nth-of-type(even){
 	background-color: #36C81F;
 }
+
 tbody tr:last-child{
 	background-color: white;
+}
+
+.outer-content{
+	margin-top: 20px;
+	width: 75%;
+	background-color: #FE45D9;
+	padding:20px;
+}
+
+.inner-content{
+	width: 75%;
+	text-align: center;
+	background-color: #3453F0;
+	margin: 0 auto;
+}
+.form-space{
+	margin-top: 60px;
 }
